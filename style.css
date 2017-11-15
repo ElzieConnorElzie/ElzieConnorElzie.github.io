@@ -256,7 +256,7 @@ tr:nth-child(even)
 	top: 60px;
 	left: 0;
 	position: fixed;
-	background: #d34116;
+	background: #d34116 url("https://images.alphacoders.com/661/66171.jpg") no-repeat left top;
 	width: 100%;	
 	height: calc(100% - 120px);
 	z-index: -1;
