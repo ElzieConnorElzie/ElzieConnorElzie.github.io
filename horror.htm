@@ -10,22 +10,49 @@
 	<style type="text/css">
 		@import url(style.css);
 	</style>
+
+<script src="j1.js"></script>
+
 </head>
 
 <body>
-   <div id="header">
-      <a href="index.htm"><img src="https://i.pinimg.com/736x/dd/64/da/dd64da585bc57cb05e5fd4d8ce873f57--library-logo-kids-logo.jpg"></a><p>Authors Attic: Horror</p>
-   </div>
+<div id="header">
+<a href="index.htm"><img src="https://i.imgur.com/s45wJrL.jpg"></a>
+	<div id="wrapper">
+		
+		<div class="link2">Authors Attic</div>
+	</div>
+
+	<div id="wrapper2">
+		<div class="link2"><a href="index.htm">Home</a></div>
+
+		<div class="link2">
+			<button onclick="myFunction()" class="dropbtn">Products</button>
+			<div id="myDropdown" class="dropdown-content">
+				<div class="panel">
+         			<a href="horror.htm"><img src="https://i.imgur.com/EFpuc7J.png" height="200px" width="auto"></a>
+         			<div class="paneltitle">Horror</div>
+      				</div>
+
+      				<div class="panel">
+         			<a href="sf.htm"><img src="https://i.imgur.com/TDI7Jod.png" height="200px" width="auto"></a>
+         			<div class="paneltitle">Science Fiction</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="link2"><a href="contact.htm">Contact Us</a></div>
+	</div>
+</div>
    
-   <div id="header2">
-      <div class="title">horror</div>
+   <div id="productDescriptionWrapper">
+      <div id="wrapper3"><div class="title">horror</div>
 
       <div class="description">Horror is a genre of fiction which is intended to, or has the capacity to frighten, scare, disgust, or startle its readers or viewers by inducing feelings of horror and terror.</div>
-
-      <div class="link"><a href="index.htm">Home</a></div>
+</div>
    </div>
 
-   <div id="content">
+   <div id="productContent">
     <table style="width:100%">
   <tr>
     <th></th>
@@ -71,5 +98,18 @@
   </tr>
 </table>
    </div>
+
+<div id="footer">
+<div id="wrapper">
+
+<p id="demo"></p>
+
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+
+</div>
+</div>
 </body>
 </html>
