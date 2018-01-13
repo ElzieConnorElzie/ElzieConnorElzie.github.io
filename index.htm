@@ -1,51 +1,97 @@
 <!doctype html>
 
 <html lang="en">
-
 <head>
-	<meta charset="utf-8">
+<meta charset="utf-8">
 
-	<title>Final Project - Great Race</title>
-	<meta name="description" content="HTML5 Template">
+<title>Authors Attic</title>
+<meta name="description" content="HTML5 Template">
 
 	<style type="text/css">
 		@import url(style.css);
 	</style>
 
-	<script src="javascript.js"></script>
+
+
+<script src="j1.js"></script>
+
 
 </head>
 
 <body>
-	<div id="content">
+<div id="header">
+<a href="index.htm"><img src="https://i.imgur.com/s45wJrL.jpg"></a>
+	<div id="wrapper">
 		
-		<div id="firstWins" style="display:none;" onclick="gameRestart()">
-		<img src="https://i.imgur.com/rBXshmT.png">
-		</div>
-		<div id="secondWins" style="display:none;" onclick="gameRestart()">
-		<img src="https://i.imgur.com/NjOmhpD.png">
-		</div>
+		<div class="link2">Authors Attic</div>
+	</div>
 
-		<div id="lightContainer">
-		<img src="https://i.imgur.com/JXEVuaD.png" onclick="myFunction(); myMove()">
+	<div id="wrapper2">
+		<div class="link2"><a href="index.htm">Home</a></div>
 
-			<div id="greenLight" style="display: none;">
-			<img src="https://i.imgur.com/g5ec394.png">
-			</div>
-		</div>
-		
-		<div id="raceContainer">
-			<div id="firstLane">
-			<img src="https://i.imgur.com/JIiYFSu.png">
-			</div>
+		<div class="link2">
+			<button onclick="myFunction()" class="dropbtn">Products</button>
+			<div id="myDropdown" class="dropdown-content">
+				<div class="panel">
+         			<a href="horror.htm"><img src="https://i.imgur.com/EFpuc7J.png" height="200px" width="auto"></a>
+         			<div class="paneltitle">Horror</div>
+      				</div>
 
-			<div id="secondLane">
-			<img src="https://i.imgur.com/PwAaweM.png">
+      				<div class="panel">
+         			<a href="sf.htm"><img src="https://i.imgur.com/TDI7Jod.png" height="200px" width="auto"></a>
+         			<div class="paneltitle">Science Fiction</div>
+				</div>
 			</div>
 		</div>
 
-		<div id="victoryContainer">
-		</div>
-	</div>	
+		<div class="link2"><a href="contact.htm">Contact Us</a></div>
+	</div>
+</div>
+   
+<div id="content">
+
+<div class="slideshow-container">
+	<div class="mySlides fade">
+		<div class="numbertext">1 / 3</div>
+		<img src="https://i.imgur.com/xxfhYto.jpg" style="width:100%">
+		<div class="text">Caption Text</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">2 / 3</div>
+		<img src="https://s3.amazonaws.com/htw/dt-contest-entries/218924/australia-adventure-action-Lust-historical-Intruige-Greed-Deception-Danger-drama-fiction-Novel-Australiana-book-cover-design.png" style="width:100%">
+		<div class="text">Caption Two</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">3 / 3</div>
+		<img src="https://english.fas.harvard.edu/wp-content/uploads/2015/12/Katie-Borrazzo-Book-Cover.jpg" style="width:100%">
+		<div class="text">Caption Three</div>
+	</div>
+
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<div id="wrapper3">
+	<div class="title">play less. read more.</div>
+
+	<div class="description">Welcome to the Book! We're your neighbors in providing good reads of every genre, matching all of your unique interests. Please visit our genre links above to browse through our most recommended novels. 
+
+</div>
+</div>
+<div id="footer">
+<div id="wrapper">
+
+<p id="demo"></p>
+
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+
+</div>
+</div>
+
 </body>
 </html>
